@@ -1,0 +1,32 @@
+{
+  "name": "booking-app",
+  "version": "1.0.0",
+  "description": "Small-business booking system (six-week training program). Setup starts here.",
+  "type": "module",
+  "packageManager": "bun@1.4.2",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "bun test",
+    "dev": "bun run src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.28.0",
+    "@types/node": "^22.15.0",
+    "bun-types": "^1.2.0",
+    "eslint": "^9.28.0",
+    "eslint-config-prettier": "^10.1.0",
+    "globals": "^16.1.0",
+    "prettier": "^3.5.0",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.32.0"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
